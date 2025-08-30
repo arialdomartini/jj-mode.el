@@ -940,7 +940,7 @@
                         (format "Set from (current: %s)" jj-squash-from)
                       "Set from"))
      :transient t)
-    ("i" "Set into" jj-squash-set-into
+    ("t" "Set into" jj-squash-set-into
      :description (lambda ()
                     (if jj-squash-into
                         (format "Set into (current: %s)" jj-squash-into)
